@@ -1,0 +1,387 @@
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#EAC926;
+    font-family:'Roboto', sans-serif;
+    padding: 10px;
+}
+.search-box{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar-full{
+    display: flex;
+    background-color: #ebebeb;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.search-bar{
+    width: 100%;
+    padding: 5px;
+    background-color: #ebebeb;
+    border: none;
+    border-right: solid 1px;
+}
+.search-icon{
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+.cuotas-box{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.main-list{
+    display: none;
+    width: 100%;
+    padding: 8px;
+}
+.list-1, .list-2{
+    width: 50%;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+a{
+    border-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+.burguer-menu{
+    background-color:  #03264C;
+    color: white;
+    max-width: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+.main-logo{
+    padding: 10px;
+    width: 50%;
+}
+.logo{
+    width: 100%;
+}
+.main{
+    background-color: #ebebeb;
+    font-family:'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+.banner{
+    width: 100vw;
+}
+.section{
+    margin: auto;
+    width: 90vw;
+}
+.articulo{
+    margin: 5px;
+    position: relative;
+}
+.titulos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-producto{
+    width: 100%;
+}
+img{
+    width:100%
+}
+.descripcion{
+    margin: auto;
+    padding:10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.camion{
+    position: absolute;
+    right: 15px;
+    bottom: 60px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border:solid #39b54a 1px;
+    padding: 10px;
+    color: #39b54a;
+    transition: 500ms;
+}
+.camion:hover{
+    transform: rotateZ(270deg);
+}
+.precios{
+    padding: 5px;
+    font-size: 18px;
+    width: 30%;
+}
+.ofertas{
+    font-size: 16px;
+    color: #39b54a;
+    padding: 5px;
+    width: 70%;
+}
+.titulo-descripcion{
+    /*display: none;*/
+    padding: 5px;
+    font-size: 16px;
+}
+footer{
+    background-color: white;
+    background-attachment: fixed;
+    font-family:'Roboto', sans-serif;
+}
+.main-footer{
+    font-size: 12px;
+    text-align: center;
+}
+.seciones-footer{
+    margin: 10px;
+}
+.titulos-pie{
+    margin: auto;
+    text-align: center;
+}
+.logo-card{
+    font-size: 30px;
+    color: #03264C;
+}
+.logo-shield{
+    font-size: 30px;
+    color: #03264C;
+}
+.logo-gift{
+    font-size: 30px;
+    color: #03264C;
+}
+.marca{
+    text-align: start;
+    padding-top: 20px ;
+    font-size: 10px;
+}
+h2{
+    font-size: 24px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0%;
+}
+
+.register-main{
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+.register-box{
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+}
+.register-titles{
+    margin: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+.box{
+    width: 90%;
+    margin-left: 5px;
+    padding: 4px;
+}
+.register-botom{
+    width: 90%;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+#register-b{
+    border-bottom: solid 1px;
+    padding: 1px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-style: none;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+button#enviar:hover{
+    background-color: #0022AA;
+}
+#photo-user{
+    border: none;
+}
+
+.login-main{
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    height: 68vh;
+}
+.login-section{
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 35%;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+.login-box{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+#user{
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: none;
+}
+#password{
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: none;
+}
+
+@media(min-width:361px){
+    .main-header{
+        display: flex;
+    }
+    .burguer-menu{
+        display: none;
+    }
+    .main-logo{
+        width: 20%;
+    }
+    .logo{
+        width: 100%
+    }
+    .search-box{
+        width: 45%;
+    }
+    .cuotas-box{
+        width: 35%;
+        margin: 0%;
+    }
+    .titulo-cuotas{
+        padding: 0;
+    }  
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .articulo-padre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main-list{
+        display: flex;
+    }
+    .titulo-descripcion{
+        display: block;
+    }
+    .articulo{
+        width: 46%;  
+    }
+    .articulo:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .register-box{
+        width: 80%;
+    }
+    .login-section{
+        width: 65%;
+        height: 50%;
+    }
+}
+
+@media(min-width:769px){
+    .main-header{
+        display:flex ;}
+    .main-logo{
+        width: 22%;
+    }
+    .logo{
+        width: 97%;
+    }
+    .search-box{
+        width: 48%;
+    }
+    .cuotas-box{
+        padding: 0;
+        width: 30%;
+    }    
+    .titulo-descripcion{
+        display: block;
+    }
+    .precios{
+        width: 45%;
+    }
+    .ofertas{
+        width: 55%;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .articulo-padre{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-list{
+        display: flex;
+        width: 100%;
+    }
+    .burguer-menu{
+        display: none;
+    }
+    .articulo{
+        width: 23%;  
+    }
+    .articulo:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .seciones-footer{
+        display: flex;
+    }
+    .register-box{
+        width: 70%;
+    }
+}
